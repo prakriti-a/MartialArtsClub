@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.prakriti.martialartsclub.MainActivity">
+
+    <item
+        android:id="@+id/add_martial_art"
+        android:title="@string/action_add"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/delete_martial_art"
+        android:title="@string/action_delete"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/update_martial_art"
+        android:title="@string/action_update"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/reset_prices"
+        android:title="Reset Martial Art Price"
+        app:showAsAction="never"/>
+
+</menu>
